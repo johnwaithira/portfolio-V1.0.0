@@ -2,6 +2,7 @@
 @import url(./variables/fonts.css);
 @import url(./variables/default.css);
 @import url(./variables/style.css);
+@import url(./App.css);
 
 
 *{  margin: 0;
