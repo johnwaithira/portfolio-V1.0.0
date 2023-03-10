@@ -1,3 +1,0 @@
-
-# John Waithira
-### Github Repo
