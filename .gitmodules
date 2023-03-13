@@ -1,3 +1,4 @@
+/.vscode
 [submodule "johnwaithira.github.io"]
 	path = johnwaithira.github.io
 	url = https://github.com/johnwaithira/johnwaithira.github.io
