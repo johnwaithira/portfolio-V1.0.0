@@ -29,8 +29,46 @@
     box-shadow: inset 0 0 0 9px rgba(255,255,255,.3);
     background-image: url("../media/about.jpg");
 }
-
+.active{
+    color: rgb(6, 6, 124);
+    font-weight: 800;
+    
+}
 .homepage{
     display: flex;
     height: 100vh;
+    padding: 30px;
+}
+
+.linkDiv{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.linkDiv .logo{
+    padding-left: 20px;
+}
+.linkDiv .links {
+    padding: 30px 0;
+}
+.link-box li{
+    transition: font-weight 0.5s;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.link-box{
+    padding: 20px;
+}
+.contentDiv{
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+.socials i{
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
 }
