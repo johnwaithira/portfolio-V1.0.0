@@ -10,6 +10,10 @@
     }
 }
 
+*::-webkit-scrollbar {
+    width: 0px;
+  }
+
 .avatar{
     width: 200px;
     height: 200px;
@@ -60,10 +64,14 @@
 .link-box{
     padding: 20px;
 }
+.con{
+    max-height: 100%;
+    overflow: auto;
+}
 .contentDiv{
     display: flex;
-    height: 100%;
     align-items: center;
+    padding: 20px;
 
 }
 
